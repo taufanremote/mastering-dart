@@ -8,6 +8,12 @@ void main() {
   print(sum([1, 2, 3, 4, 5]));
 
   print(sum2(10, 10));
+
+  void innerHello() {
+    print('Hello inner function');
+  }
+
+  innerHello();
 }
 
 void sayHello(String firstName, [String? lastName = '']) {
